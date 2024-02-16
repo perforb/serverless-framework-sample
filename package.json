@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "serverless-step-functions": "^3.19.0"
+  },
+  "name": "hello"
+}
