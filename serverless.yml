@@ -54,8 +54,11 @@ provider:
 #    variable1: value1
 
 # you can add packaging information here
-#package:
-#  patterns:
+package:
+  patterns:
+    - "!.serverless/**"
+    - "!node_modules/**"
+    - "!__pycache__/**"
 #    - '!exclude-me.py'
 #    - '!exclude-me-dir/**'
 #    - include-me.py
